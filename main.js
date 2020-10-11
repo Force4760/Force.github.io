@@ -10,12 +10,12 @@ window.addEventListener("DOMContentLoaded", function () {
     function success() {
       form.reset();
       status.classList.add("success");
-      status.innerHTML = "Thanks!";
+      status.innerHTML = "Obrigado!";
     }
   
     function error() {
       status.classList.add("error");
-      status.innerHTML = "Oops! There was a problem.";
+      status.innerHTML = "Oops! Algo correu mal.";
     }
   
     // handle the form submission event
